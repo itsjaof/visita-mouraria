@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo da página */
+}
+
+/* 
+  NAVBAR
+*/
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  text-align: center;
+}
+
+.navbar a {
+  float: none;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: rgb(55, 212, 233);
+}
+
+/* */
+
+.header {
+  background-color: #333; /* Cor de fundo do cabeçalho */
+  color: #fff; /* Cor do texto no cabeçalho */
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff; /* Cor de fundo do conteúdo */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor do conteúdo */
+}
+
+h2 {
+  color: #333; /* Cor do texto dos títulos secundários */
+}
+
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-container img {
+  width: 30%; /* Ajuste conforme necessário para o espaçamento desejado */
+  margin-bottom: 20px;
+}
