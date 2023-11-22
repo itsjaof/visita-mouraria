@@ -1,3 +1,7 @@
+/* 
+  CONFIGURAÇÕES GERAIS
+*/
+
 body {
     margin: 0;
     padding: 0;
@@ -28,18 +32,9 @@ body {
   color: rgb(55, 212, 233);
 }
 
-/* */
-
-.header {
-  background-color: #333; /* Cor de fundo do cabeçalho */
-  color: #fff; /* Cor do texto no cabeçalho */
-  text-align: center;
-  padding: 20px;
-}
-
-.header h1 {
-  margin: 0;
-}
+/* 
+  CONTEUDO PRINCIPAL 
+*/
 
 .content {
   max-width: 800px;
@@ -63,4 +58,18 @@ h2 {
 .image-container img {
   width: 30%; /* Ajuste conforme necessário para o espaçamento desejado */
   margin-bottom: 20px;
+}
+
+/* 
+  RODAPÉ 
+*/
+
+footer {
+  background-color: #333; /* Cor de fundo do rodapé */
+  color: #fff; /* Cor do texto no rodapé */
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
